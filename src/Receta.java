@@ -35,12 +35,12 @@ public class Receta {
 
     public void mostrarIngredientes(){
         //tipo de dato, nombre y de donde
-        for (Ingrediente ingredente:ingredientes) {
-            System.out.println(ingredente);
-        }
+        //for (Ingrediente ingredente:ingredientes) {
+          //  System.out.println(ingredente);
+       // }
 
         for (int i=0; i<ingredientes.size();i++){
-            System.out.println(ingredientes.get(i));
+            System.out.println(i+ "- "+ingredientes.get(i));
         }
     }
 
