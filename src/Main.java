@@ -31,7 +31,7 @@ public class Main {
                 10.7,
                 new ArrayList<>(Arrays.asList(queso,tortilla)),
                 new ArrayList<>(Arrays.asList("Calentar la tortilla","Separar el queso",
-                        "Poner el queso adentro de la tortilla"))
+                        "Poner el queso adentro de la tortilla","Esperar a que se derrita el queso"))
         );
       //  do{}while
 
