@@ -81,6 +81,7 @@ public class Main {
                         ingredientesReceta.add(ingredientesDisponibles.get(respuesta-1));
                     }
                 }while (respuesta!=0);
+                nueva.setIngredientes(ingredientesReceta);
                 break;
             case 3:
                     break;
