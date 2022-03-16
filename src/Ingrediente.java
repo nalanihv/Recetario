@@ -24,6 +24,6 @@ public class Ingrediente {
         System.out.println("Ingrediente creado");
     }
 
-
+public Ingrediente(){}
 
 }
