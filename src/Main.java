@@ -73,6 +73,14 @@ public class Main {
                 for (int i = 0; i < ingredientesDisponibles.size(); i++) {
                     System.out.println(i+1 +". "+ingredientesDisponibles.get(i).getNombre());
                 }
+                ArrayList<Ingrediente>ingredientesReceta=new ArrayList<>();
+                System.out.println("Ingrese el numero del ingrediente corresponiente y de enter," +
+                        "si ya no quiere agregar más escriba 0");
+                do {
+                    if(respuesta!=0){
+                        ingredientesReceta.add(ingredientesDisponibles.get(respuesta-1));
+                    }
+                }while (respuesta!=0);
                 break;
             case 3:
                     break;
