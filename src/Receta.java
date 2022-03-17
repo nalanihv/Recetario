@@ -48,9 +48,8 @@ public class Receta {
         //for (Ingrediente ingredente:ingredientes) {
           //  System.out.println(ingredente);
        // }
-
         for (int i=0; i<ingredientes.size();i++){
-            System.out.println(i+1+ " - "+ingredientes.get(i));
+            System.out.println(i+1+ " - "+ingredientes.get(i).getNombre());
         }
     }
 

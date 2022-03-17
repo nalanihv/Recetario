@@ -24,6 +24,11 @@ public class Ingrediente {
         System.out.println("Ingrediente creado");
     }
 
-public Ingrediente(){}
+public Ingrediente(){
+}
 
+    @Override
+    public String toString() {
+        return nombre;
+    }
 }
