@@ -38,16 +38,17 @@ public class Main {
         Recetario miRecetario = new Recetario("Nalani", "Recetas caseras",
                 new ArrayList<>(Arrays.asList(quesadilla)));
 
-        System.out.println("Bienvenido,elije una opcion:");
-        System.out.println("1. Agregar un ingrediente ");
-        System.out.println("2. Agregar una receta");
-        System.out.println("3. Ver mi recetario");
-        System.out.println("0.salir");
+
         //salir
         int respuesta;
         do {
             Scanner scanner = new Scanner(System.in);
 
+            System.out.println("Bienvenido,elije una opcion:");
+            System.out.println("1. Agregar un ingrediente ");
+            System.out.println("2. Agregar una receta");
+            System.out.println("3. Ver mi recetario");
+            System.out.println("0.salir");
             respuesta = scanner.nextInt();
             switch (respuesta) {
                 case 1:
@@ -90,7 +91,7 @@ public class Main {
                     System.out.println("ingrese los pasos de uno en uno y de enter," + "si ya non quiere agregar màs escriba 0");
                     String res = "";
                     do {
-                        res = scanner.next();
+                        res = scanner.nextLine();
                         if (!res.equals("0")) {
                             pasosReceta.add(res);
                         }
