@@ -96,6 +96,7 @@ public class Main {
                             pasosReceta.add(res);
                         }
                     } while (!res.equals("0"));
+                    pasosReceta.remove(0);
                     nueva.setPasos(pasosReceta);
                     miRecetario.getRecetas().add(nueva);
                     break;
