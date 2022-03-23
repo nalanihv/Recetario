@@ -53,6 +53,7 @@ public class Receta {
         }
     }
 
+
     public void mostrarPasos(){
         for (int i=0; i <pasos.size();i++){
             System.out.println(i+1+". "+pasos.get(i));

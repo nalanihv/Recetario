@@ -40,6 +40,7 @@ public class Recetario {
     }
 
 
+
     public  void mostrarRecetario (){
         System.out.println(titulo);
         System.out.println(autor);
