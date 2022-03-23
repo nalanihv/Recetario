@@ -108,9 +108,13 @@ public class Main {
                 case 4://eliminar receta
                     miRecetario.mostrarRecetario();
                     System.out.println("ingrese el numero de la receta que desee eliminar"+"si ya no quiere eliminar más escriba 0");
-                    respuesta=scanner.nextInt();
-
-
+                    do {
+                        respuesta=1;
+                        respuesta = scanner.nextInt();
+                        if (respuesta != 0) {
+                            ingredientesDisponibles.remove(respuesta-1);
+                        }
+                    } while (respuesta != 0);
                    //int num=scanner.nextInt();
                   //  for (int  = 0;  i< ; ++) {
 
